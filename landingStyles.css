@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Balthazar";
+  font-family: "Lora", serif;
   margin: 0px;
 }
 
@@ -23,14 +27,14 @@ h1 {
   margin: 15px 0;
   color: #ffeace;
   font-size: 6em;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 p {
   margin: 0 auto;
   max-width: 500px;
   color: #ffeace;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .links {
@@ -59,4 +63,34 @@ p {
   margin-top: 20px;
   width: 30px;
   height: 30px;
+}
+
+.about-section {
+  background-color: #402e32;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0;
+  color: #ffeace;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+#left-half {
+  text-align: center;
+}
+
+#right-half {
+  width: 37%;
+  height: auto;
+}
+#right-half img {
+  width: 100%;
+  height: auto;
 }
