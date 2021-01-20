@@ -1,0 +1,54 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(BGJPEG.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Varför ska man ha en maximal bredd definierad i pixlar */
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #c8fcea;
+  font-size: 6em;
+  font-weight: 200;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+.links {
+  margin: 50px auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links a {
+  margin-top: 50px;
+  color: #00c896;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.7em;
+  transition: ease-in-out 0.2s;
+}
+
+.links a:hover {
+  transform: scale(1.1);
+}
