@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Balthazar";
   margin: 0px;
 }
 
@@ -20,7 +20,8 @@ body {
 }
 
 h1 {
-  color: #c8fcea;
+  margin: 15px 0;
+  color: #ffeace;
   font-size: 6em;
   font-weight: 200;
 }
@@ -28,27 +29,34 @@ h1 {
 p {
   margin: 0 auto;
   max-width: 500px;
-  color: #fff;
-  font-size: 1.4em;
+  color: #ffeace;
+  font-size: 2em;
 }
 
 .links {
   margin: 50px auto;
   max-width: 50%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.2s;
 }
 
 .links a {
   margin-top: 50px;
-  color: #00c896;
+  color: #f5ceae;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.7em;
-  transition: ease-in-out 0.2s;
 }
 
-.links a:hover {
+.links:hover {
   transform: scale(1.1);
+}
+
+#arrow {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
 }
