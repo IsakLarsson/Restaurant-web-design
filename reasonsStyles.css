@@ -1,19 +1,41 @@
 ul {
-  margin-top: 50px;
+  margin-top: 30px;
   list-style-type: none;
   padding-inline-start: 0;
 }
 
 li {
-  margin: 0 40px;
+  width: 150px;
+  margin: 0 auto;
   display: inline-block;
   color: #f5ceae;
   font-size: 1.3em;
 }
 
+#we-are {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+  li {
+    margin: 0 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #reasons-header {
     font-size: 2.8em;
+  }
+  li {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  li {
+    margin-top: 10px;
+    display: block;
+    font-size: 1em;
   }
 }
 
