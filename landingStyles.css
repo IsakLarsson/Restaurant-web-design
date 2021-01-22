@@ -71,7 +71,7 @@ p {
   height: 100vh;
 }
 
-#about-container {
+.about-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,7 +79,7 @@ p {
   height: 100%;
 }
 
-#image-container {
+.image-container {
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -90,7 +90,7 @@ p {
   overflow: hidden;
   z-index: 1;
 }
-#image-container img {
+.image-container img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -104,11 +104,11 @@ h2 {
   font-weight: 400;
 }
 
-#about-container p {
+.about-container p {
   max-width: 80%;
 }
 
-#about-text {
+.about-text {
   width: 70%;
   padding: 40px 20px;
   background-color: #402e32cc;
@@ -138,52 +138,44 @@ h2 {
   width: 0;
   height: 2px;
   background: #f5ceae;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
   margin-top: 5px;
 }
 #link-text a:hover::after {
   width: 100%;
-  transition: ease-in-out 0.3s;
-}
-
-ul {
-  margin-top: 100px;
-  list-style-type: none;
-}
-
-li {
-  margin: 0 40px;
-  display: inline-block;
-  color: #f5ceae;
-  font-size: 1.3em;
+  transition: ease-in-out 0.2s;
 }
 
 @media screen and (max-width: 650px) {
-  #about-text {
+  .about-text {
     width: 100%;
   }
-  #about-container p {
+  .about-container p {
     max-width: 100%;
   }
 
   h1 {
-    margin: 15px 0;
-    color: #ffeace;
     font-size: 3.7em;
-    font-weight: 400;
   }
 
   h2 {
     margin: 0 0 50px 0;
-    color: #ffeace;
     font-size: 3em;
-    font-weight: 400;
   }
 
   p {
-    margin: 0 auto;
-    max-width: 500px;
-    color: #ffeace;
     font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
   }
 }
