@@ -1,0 +1,19 @@
+table {
+  color: #ffeace;
+  margin-top: 10px;
+}
+
+#book-bg {
+  z-index: -1;
+}
+
+td {
+  width: 70%;
+}
+
+tr:nth-child(even) {
+  background-color: #4631368e;
+}
+tr:nth-child(odd) {
+  background-color: #4d3d408a;
+}

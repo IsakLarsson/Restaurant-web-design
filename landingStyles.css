@@ -34,7 +34,7 @@ p {
   margin: 0 auto;
   max-width: 500px;
   color: #ffeace;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .links {
@@ -76,7 +76,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 }
 
 .image-container {
@@ -88,7 +88,7 @@ p {
   right: 0;
   bottom: 0%;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 .image-container img {
   width: 100%;
@@ -98,7 +98,7 @@ p {
 }
 
 h2 {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
   color: #ffeace;
   font-size: 4em;
   font-weight: 400;

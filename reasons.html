@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reasonsStyles.css" />
 
+    <!-- Navbar styles -->
+    <link rel="stylesheet" href="nav-styles.css" />
     <!-- To reuse some styles -->
     <link rel="stylesheet" href="landingStyles.css" />
 
@@ -16,8 +18,23 @@
     <title>The Lighthouse</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="book.html">Book table</a>
+          </li>
+          <li>
+            <a href="reasons.html">Why eat here?</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <div class="reasons-container">
-      <div class="image-container">
+      <div class="image-container" id="reasons-bg">
         <img src="Food.jpg" alt="Background" />
       </div>
       <div class="about-container" id="reasons-container">
